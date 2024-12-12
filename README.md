@@ -1,6 +1,6 @@
 # GNN_epem_Searches_MicroBooNE
 
-his repository contains my GNN code and data analysis procedures from my internship at Los Alamos National Laboratory (LANL) through the Department of Energy Science Undergraduate Laboratory Internships (DOE SULI) program. The files shown here are forked from the original repo friedgreentomatoes owned by Professor Mark Ross-Lonergan at Columbia University, New York. A brief explanation of the 4 files are shown below:
+This repository contains my GNN code and data analysis procedures from my internship at Los Alamos National Laboratory (LANL) through the Department of Energy Science Undergraduate Laboratory Internships (DOE SULI) program. The files shown here are forked from the original repo friedgreentomatoes owned by Professor Mark Ross-Lonergan at Columbia University, New York. A brief explanation of the 4 files are shown below:
 
 1. predict_angle.py: Script that loads training and test data from data_generator.py which is used to train GNN from gnn_model.py. Records training and test model with additional features to save model and all output.
 2. data_generator.py: Script that takes raw simulated particle events in MicroBooNE detector geometry and prepares batches for training and testing GNN.
